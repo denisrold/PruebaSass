@@ -30,6 +30,7 @@
   align-items: center;
   justify-content: space-around;
   font-weight: bolder;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.6);
 }
 .btn.shadow-white:hover {
   box-shadow: 0 2px 7px 0 rgba(255, 255, 255, 0.4);
@@ -107,6 +108,17 @@ header nav {
   justify-content: space-between;
 }
 
+.prices .prev {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #aaa;
+  text-decoration: line-through;
+}
+.prices .now {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
 .row {
   display: flex;
   align-items: center;
@@ -123,6 +135,78 @@ header nav {
 
 .m-auto {
   margin: 0 auto;
+}
+
+.p-1 {
+  padding: 8px;
+}
+
+.py-1 {
+  padding: 8px 0;
+}
+
+.p-2 {
+  padding: 16px;
+}
+
+.py-2 {
+  padding: 16px 0;
+}
+
+.p-3 {
+  padding: 24px;
+}
+
+.py-3 {
+  padding: 24px 0;
+}
+
+.p-4 {
+  padding: 32px;
+}
+
+.py-4 {
+  padding: 32px 0;
+}
+
+.p-5 {
+  padding: 40px;
+}
+
+.py-5 {
+  padding: 40px 0;
+}
+
+.p-6 {
+  padding: 48px;
+}
+
+.py-6 {
+  padding: 48px 0;
+}
+
+.p-7 {
+  padding: 56px;
+}
+
+.py-7 {
+  padding: 56px 0;
+}
+
+.p-8 {
+  padding: 64px;
+}
+
+.py-8 {
+  padding: 64px 0;
+}
+
+.p-9 {
+  padding: 72px;
+}
+
+.py-9 {
+  padding: 72px 0;
 }
 
 .m-1 {
@@ -159,4 +243,16 @@ header nav {
 
 .m-9 {
   margin: 72px;
+}
+
+.w-1 {
+  width: 25%;
+}
+
+.w-2 {
+  width: 50%;
+}
+
+.w-3 {
+  width: 75%;
 }
