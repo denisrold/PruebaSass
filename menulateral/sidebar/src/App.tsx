@@ -1,5 +1,5 @@
 import './App.css';
-import { SidebarMenu } from './components/SidebarMenu.';
+import { SidebarMenu } from './components/SidebarMenu';
 import { SidebarMenuCard, SidebarMenuItem } from './types/types';
 import {FcAdvertising} from 'react-icons/fc'
 
