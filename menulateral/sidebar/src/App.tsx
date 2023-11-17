@@ -2,6 +2,7 @@ import './App.css';
 import { SidebarMenu } from './components/SidebarMenu';
 import { SidebarMenuCard, SidebarMenuItem } from './types/types';
 import {FcAdvertising} from 'react-icons/fc'
+import profileImage from './img/descarga.jpeg';
 
 function App() {
   const items:SidebarMenuItem[] = [
@@ -13,9 +14,9 @@ function App() {
 
   const card:SidebarMenuCard = {
     id:'card01',
-    displayName:'Marcos Rivas',
+    displayName:'Denis H. Roldán',
     title:'youtuber',
-    photoUrl:'',
+    photoUrl:profileImage,
     url: '/', 
   }
   return (
